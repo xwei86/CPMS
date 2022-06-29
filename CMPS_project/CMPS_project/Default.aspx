@@ -19,40 +19,9 @@
 </script>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    
- <%--   <div class="jumbotron">
-        <h1>About CPMS</h1>
-        <p class="lead">111111</p>
-    </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Author</h2>
-            <p>
-                What you can do?</p>
-            <p>
-                11111111</p>
-        </div>
-        <div class="col-md-4">
-            <h2>Reviewer</h2>
-            <p>
-                What you can do?</p>
-            <p>
-                11111111</p>
-        </div>
-        <div class="col-md-4">
-            <h2>Adiministrator</h2>
-            <p>
-                What you can do?</p>
-            <p>
-                11111111111</p>
-        </div>
-    </div>
-    <div class="jumbotron">
-        <h1>Sign in</h1>
-    </div>--%>
-
-    <p>   
+    <p style="height: 575px"> 
+        
         <asp:Login ID="Login1" runat="server" style="outline-style: ridge; outline-color:#507CD1; background-color:antiquewhite; 
                 position: absolute; right: 162px; top:26%; padding:0px 35px 35px; height: 338px;" OnAuthenticate="Login1_Authenticate">
             <InstructionTextStyle Font-Italic="True" ForeColor="Black" />

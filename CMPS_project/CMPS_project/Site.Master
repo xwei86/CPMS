@@ -57,15 +57,15 @@
                 </div>
             </div>
         </div>
-        <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        <div class="container body-content" style="padding-bottom:60px" >
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" >
             </asp:ContentPlaceHolder>
             <hr />
-            <div style="padding: 10px 0px;position: fixed;bottom: 0px;width: 100%;text-align: center;background-color: white;">
-                <p style="color:dimgrey;font-size: 12px;"><span position: fixed>copyright  <%: DateTime.Now.Year %> CPMS Team. All Rights Reserved.</span>
-                </p >
-                <p style="color:dimgrey;font-size: 12px">Technique Support: University of South Florida, 2022 Summer Software Engineering Team China </p >
-            </div>
+        </div>
+        <div style="padding: 5px 0px; margin-top: -60px; text-align: center;background-color: white;" class="auto-style1">
+            <p style="color:dimgrey;font-size: 12px;"><span position: fixed>copyright  <%: DateTime.Now.Year %> CPMS Team. All Rights Reserved.</span>
+            </p >
+            <p style="color:dimgrey;font-size: 12px">Technique Support: University of South Florida, 2022 Summer Software Engineering Team China </p >
         </div>
 
     </form>

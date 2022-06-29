@@ -214,7 +214,7 @@ namespace CMPS_project
                 //code for create the new account on the SQL
 
                 //go to login page
-                Response.Redirect("Default.aspx");
+                Response.Redirect("Reviewer_area_Page.aspx");
             }
         }
     }

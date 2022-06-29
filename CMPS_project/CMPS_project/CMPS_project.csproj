@@ -129,6 +129,7 @@
     <Content Include="Author_Page.aspx" />
     <Content Include="Reviewer_Page.aspx" />
     <Content Include="Administrator_Page.aspx" />
+    <Content Include="Reviewer_area_Page.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -247,6 +248,13 @@
     </Compile>
     <Compile Include="Administrator_Page.aspx.designer.cs">
       <DependentUpon>Administrator_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reviewer_area_Page.aspx.cs">
+      <DependentUpon>Reviewer_area_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reviewer_area_Page.aspx.designer.cs">
+      <DependentUpon>Reviewer_area_Page.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
