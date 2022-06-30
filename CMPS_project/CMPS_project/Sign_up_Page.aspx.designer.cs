@@ -15,13 +15,13 @@ namespace CMPS_project
     {
 
         /// <summary>
-        /// FirstNamelable control.
+        /// FirstNameLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FirstNamelable;
+        protected global::System.Web.UI.WebControls.Label FirstNameLabel;
 
         /// <summary>
         /// FirstNameTextBox control.
@@ -33,22 +33,22 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
 
         /// <summary>
-        /// FirstName_error_Label control.
+        /// FirstNameRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FirstName_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator FirstNameRequired;
 
         /// <summary>
-        /// MiddleInitiallable control.
+        /// MiddleInitialLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label MiddleInitiallable;
+        protected global::System.Web.UI.WebControls.Label MiddleInitialLabel;
 
         /// <summary>
         /// MiddleInitialTextBox control.
@@ -60,13 +60,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox MiddleInitialTextBox;
 
         /// <summary>
-        /// MiddleInitial_error_Label control.
+        /// RequiredFieldValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label MiddleInitial_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
         /// LastNameLabel control.
@@ -87,13 +87,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
 
         /// <summary>
-        /// LastName_error_Label control.
+        /// LastNameRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LastName_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator LastNameRequired;
 
         /// <summary>
         /// AffiliationLabel control.
@@ -114,13 +114,40 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox AffiliationTextBox;
 
         /// <summary>
-        /// Affiliation_error_Label control.
+        /// RequiredFieldValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Affiliation_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+
+        /// <summary>
+        /// DepartmentLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DepartmentLabel;
+
+        /// <summary>
+        /// DepartmentTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox DepartmentTextBox;
+
+        /// <summary>
+        /// RequiredFieldValidator3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
 
         /// <summary>
         /// AddressLabel control.
@@ -141,13 +168,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox AddressTextBox;
 
         /// <summary>
-        /// Address_error_Label control.
+        /// RequiredFieldValidator4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Address_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
 
         /// <summary>
         /// CityLabel control.
@@ -168,13 +195,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox CityTextBox;
 
         /// <summary>
-        /// City_error_Label control.
+        /// RequiredFieldValidator6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label City_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
 
         /// <summary>
         /// StateLabel control.
@@ -195,22 +222,22 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox StateTextBox;
 
         /// <summary>
-        /// State_error_Label control.
+        /// RequiredFieldValidator5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label State_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
 
         /// <summary>
-        /// Zipcode control.
+        /// ZipcodeLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Zipcode;
+        protected global::System.Web.UI.WebControls.Label ZipcodeLabel;
 
         /// <summary>
         /// ZipcodeTextBox control.
@@ -222,13 +249,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox ZipcodeTextBox;
 
         /// <summary>
-        /// Zipcode_error_Label control.
+        /// RequiredFieldValidator7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Zipcode_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
 
         /// <summary>
         /// PhoneNumberLabel control.
@@ -249,13 +276,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox PhoneNumberTextBox;
 
         /// <summary>
-        /// PhoneNumber_error_Label control.
+        /// RequiredFieldValidator8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PhoneNumber_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator8;
 
         /// <summary>
         /// UserNameLabel control.
@@ -276,13 +303,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
 
         /// <summary>
-        /// UserName_error_Label control.
+        /// UserNameRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserName_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator UserNameRequired;
 
         /// <summary>
         /// PasswordLabel control.
@@ -303,22 +330,22 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
 
         /// <summary>
-        /// Password_error_Label control.
+        /// PasswordRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Password_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator PasswordRequired;
 
         /// <summary>
-        /// ConfirmPasswordLabel control.
+        /// ConfirmPasswordLable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ConfirmPasswordLabel;
+        protected global::System.Web.UI.WebControls.Label ConfirmPasswordLable;
 
         /// <summary>
         /// ConfirmPasswordTextBox control.
@@ -330,30 +357,30 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.TextBox ConfirmPasswordTextBox;
 
         /// <summary>
-        /// ConfirmPassword_error_Label control.
+        /// ConfirmPasswordRequiredField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ConfirmPassword_error_Label;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ConfirmPasswordRequiredField;
 
         /// <summary>
-        /// AuthorButton control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AuthorButton;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// ReviewerButton control.
+        /// Button3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ReviewerButton;
+        protected global::System.Web.UI.WebControls.Button Button3;
     }
 }
