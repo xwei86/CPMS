@@ -115,6 +115,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Generate_Authors_Report.aspx" />
+    <Content Include="Generate_Reviewers_Comments_Reports.aspx" />
+    <Content Include="Generate_Reviewers_Report.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -124,12 +127,16 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Match_Papers.aspx" />
     <Content Include="Sign_up_Page.aspx" />
     <Content Include="Forgot_password_Page.aspx" />
     <Content Include="Author_Page.aspx" />
     <Content Include="Reviewer_Page.aspx" />
     <Content Include="Administrator_Page.aspx" />
     <Content Include="Reviewer_area_Page.aspx" />
+    <Content Include="Submission Permission.aspx" />
+    <Content Include="View Edit Profile.aspx" />
+    <Content Include="Paper Submission.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -189,8 +196,36 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Generate_Authors_Report.aspx.cs">
+      <DependentUpon>Generate_Authors_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generate_Authors_Report.aspx.designer.cs">
+      <DependentUpon>Generate_Authors_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Generate_Reviewers_Comments_Reports.aspx.cs">
+      <DependentUpon>Generate_Reviewers_Comments_Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generate_Reviewers_Comments_Reports.aspx.designer.cs">
+      <DependentUpon>Generate_Reviewers_Comments_Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Generate_Reviewers_Report.aspx.cs">
+      <DependentUpon>Generate_Reviewers_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generate_Reviewers_Report.aspx.designer.cs">
+      <DependentUpon>Generate_Reviewers_Report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Match_Papers.aspx.cs">
+      <DependentUpon>Match_Papers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Match_Papers.aspx.designer.cs">
+      <DependentUpon>Match_Papers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -255,6 +290,27 @@
     </Compile>
     <Compile Include="Reviewer_area_Page.aspx.designer.cs">
       <DependentUpon>Reviewer_area_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submission Permission.aspx.cs">
+      <DependentUpon>Submission Permission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submission Permission.aspx.designer.cs">
+      <DependentUpon>Submission Permission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View Edit Profile.aspx.cs">
+      <DependentUpon>View Edit Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View Edit Profile.aspx.designer.cs">
+      <DependentUpon>View Edit Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paper Submission.aspx.cs">
+      <DependentUpon>Paper Submission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paper Submission.aspx.designer.cs">
+      <DependentUpon>Paper Submission.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
