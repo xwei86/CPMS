@@ -1,20 +1,14 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CMPS_project._Default" %>
 
 <script runat="server">
-
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
-
     protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
     {
-
     }
-
     protected void ForgetButton_Click(object sender, EventArgs e)
     {
-
     }
 </script>
 
@@ -93,9 +87,5 @@
             <asp:ListItem>Reviewer</asp:ListItem>
                   </asp:RadioButtonList>
         </p>
-    
-        
-                                                
-                                    
+                                 
 </asp:Content>
-
