@@ -56,22 +56,7 @@
                                             ToolTip="Password is required." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
                                     </td>
                                 </tr>
-                                <tr style="font-size:12px; color:#121314">
-                                    <td align="right" style="height: 20px; width: 80px;">
-                                        
-                                        <asp:Label ID="Admin_Label" runat="server" Text="Admin"></asp:Label>
-                                        <asp:CheckBox ID="Admin_CheckBox" runat="server" />
-
-                                        <asp:Label ID="Author_Label" runat="server" Text="Author"></asp:Label>
-                                        <asp:CheckBox ID="Author_CheckBox" runat="server" />
-
-                                        <asp:Label ID="Reviewer_Label" runat="server" Text="Reviewer"></asp:Label>
-                                        <asp:CheckBox ID="Reviewer_CheckBox" runat="server" />
-
-                                    </td>
-                                     
-                                    
-                                </tr>        
+                                      
                                 <tr>
                                     <td align="center" colspan="2" Height="45px">
                                         <asp:Button ID="LoginButton" runat="server" CommandName="Login" Height="38px" Width="60%" Text="Log In" ValidationGroup="Login1" OnClick="LoginButton_Click" 
@@ -101,7 +86,16 @@
             <TextBoxStyle Font-Size="0.8em" />
             <TitleTextStyle BackColor="#507CD1" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
         </asp:Login>
+ 
+         <asp:RadioButtonList ID="Select_RadioButtonList" runat="server" TextAlign="Left" Width="92px" CssClass="affix" style="left: 1300px; top: 447px" >
+            <asp:ListItem>Admin</asp:ListItem>
+            <asp:ListItem>Author</asp:ListItem>
+            <asp:ListItem>Reviewer</asp:ListItem>
+                  </asp:RadioButtonList>
         </p>
     
+        
+                                                
+                                    
 </asp:Content>
 

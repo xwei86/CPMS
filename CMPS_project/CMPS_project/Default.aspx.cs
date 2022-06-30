@@ -23,12 +23,43 @@ namespace CMPS_project
         {
             string Try_account = Login1.UserName.Trim();
             string Try_password = Login1.Password.Trim();
-            
-            
 
-        }
-        public void check(string Account,string Password)
-        {
+            if (Select_RadioButtonList.SelectedItem.Value == "Admin")
+            {
+                //select admin
+                if (AdminAccount == Try_account && AdminPassword == Try_password)
+                {
+                    Response.Redirect("Administrator_Page.aspx");
+                }
+                else
+                {
+                    Response.Write("Account or password error,please try again.");
+                }
+            }
+            else if(Select_RadioButtonList.SelectedItem.Value == "Author")
+            {
+                //select author
+                /*SQL
+                if(Try_account.....)
+                else
+                 */
+            }
+            else if (Select_RadioButtonList.SelectedItem.Value == "Reviewer")
+            {
+                //select author
+                /*SQL
+                if(Try_account.....)
+                else
+                 */
+            }
+            else
+            {
+                Response.Write("Must select one");
+            }
+
+
+
+
 
         }
     }
