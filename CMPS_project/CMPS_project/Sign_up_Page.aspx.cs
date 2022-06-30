@@ -279,7 +279,7 @@ namespace CMPS_project
 
 
                 //go to login page
-                Response.Redirect("Reviewer_Page.aspx");
+                Response.Redirect("Reviewer_area_Page.aspx");
             }
         }
         
