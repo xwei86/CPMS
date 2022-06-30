@@ -58,12 +58,20 @@
                                 </tr>
                                 <tr style="font-size:12px; color:#121314">
                                     <td align="right" style="height: 20px; width: 80px;">
-                                        <asp:Label ID="MassageLabel" runat="server" AssociatedControlID="MassageLabel1">Note:</asp:Label>
+                                        
+                                        <asp:Label ID="Admin_Label" runat="server" Text="Admin"></asp:Label>
+                                        <asp:CheckBox ID="Admin_CheckBox" runat="server" />
+
+                                        <asp:Label ID="Author_Label" runat="server" Text="Author"></asp:Label>
+                                        <asp:CheckBox ID="Author_CheckBox" runat="server" />
+
+                                        <asp:Label ID="Reviewer_Label" runat="server" Text="Reviewer"></asp:Label>
+                                        <asp:CheckBox ID="Reviewer_CheckBox" runat="server" />
+
                                     </td>
-                                     <td style="width: 286px; height: 20px;">
-                                        <asp:Label ID="MassageLabel1" runat="server" AssociatedControlID="MassageLabel">&nbsp Case sensitive! </asp:Label>
-                                    </td>
-                                </tr>
+                                     
+                                    
+                                </tr>        
                                 <tr>
                                     <td align="center" colspan="2" Height="45px">
                                         <asp:Button ID="LoginButton" runat="server" CommandName="Login" Height="38px" Width="60%" Text="Log In" ValidationGroup="Login1" OnClick="LoginButton_Click" 
