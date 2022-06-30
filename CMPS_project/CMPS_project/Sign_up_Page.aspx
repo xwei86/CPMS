@@ -16,7 +16,7 @@
     <div style=overflow-y:auto>
      
         <%-- <asp:Login ID="SighUp" runat="server" style="outline-style: ridge; outline-color:#507CD1; background-color:antiquewhite; 
-                position: absolute; right: 162px; top:10%; padding:0px 35px 35px; height: 380px;" OnAuthenticate="SighUp_Authenticate">
+                position: absolute; right: 162px; top:10%; padding:0px40px 40px; height: 380px;" OnAuthenticate="SighUp_Authenticate">
              ValidationGroup="SighUp"
           --%>
             <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
@@ -27,9 +27,8 @@
                         <td>
                             <table cellpadding="0" style="height: 380px">
                                
-                               
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="FirstNameLabel" runat="server" AssociatedControlID="FirstNameTextBox" Width="80px" Height="16px" font-size="13px">First name: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -40,8 +39,8 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="right" style="height: 35px">
-                                        <asp:Label ID="MiddleInitialLabel" runat="server" AssociatedControlID="MiddleInitialTextBox" Width="80px" Height="16px" font-size="13px">Middle Initial: </asp:Label>
+                                    <td align="right" style="height: 40px">
+                                        <asp:Label ID="MiddleInitialLabel" runat="server" AssociatedControlID="MiddleInitialTextBox" Width="100px" Height="16px" font-size="13px">Middle Initial: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
                                         <asp:TextBox ID="MiddleInitialTextBox" runat="server" Font-Size="1.2em"></asp:TextBox>
@@ -52,7 +51,7 @@
                                 </tr>
 
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="LastNameLabel" runat="server" AssociatedControlID="LastNameTextBox" Width="80px" Height="16px" font-size="13px">Last name: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -64,7 +63,7 @@
                                 </tr>
 
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="AffiliationLabel" runat="server" AssociatedControlID="AffiliationTextBox" Width="80px" Height="16px" font-size="13px">Affiliation: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -76,7 +75,7 @@
                                 </tr>
 
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="DepartmentLabel" runat="server" AssociatedControlID="DepartmentTextBox" Width="80px" Height="16px" font-size="13px">Department: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -87,7 +86,7 @@
                                     </td>
                                 </tr>
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="AddressLabel" runat="server" AssociatedControlID="AddressTextBox" Width="80px" Height="16px" font-size="13px">Address: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -99,7 +98,7 @@
                                 </tr>
                                 
                                 <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="CityLabel" runat="server" AssociatedControlID="CityTextBox" Width="80px" Height="16px" font-size="13px">City: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -110,7 +109,7 @@
                                     </td>
                                 </tr>
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="StateLabel" runat="server" AssociatedControlID="StateTextBox" Width="80px" Height="16px" font-size="13px">State: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -121,7 +120,7 @@
                                     </td>
                                 </tr>
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="ZipcodeLabel" runat="server" AssociatedControlID="ZipcodeTextBox" Width="80px" Height="16px" font-size="13px">Zipcode: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -132,7 +131,7 @@
                                     </td>
                                 </tr>
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="PhoneNumberLabel" runat="server" AssociatedControlID="PhoneNumberTextBox" Width="80px" Height="16px" font-size="13px">PhoneNumber: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -144,7 +143,7 @@
                                 </tr>
 
                                  <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserNameTextBox" Width="80px" Height="16px" font-size="13px">Username: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -156,7 +155,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="PasswordTextBox" Height="16px" font-size="13px">Password: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -167,7 +166,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="right" style="height: 35px">
+                                    <td align="right" style="height: 40px">
                                         <asp:Label ID="ConfirmPasswordLable" runat="server" AssociatedControlID="ConfirmPasswordTextBox" Height="16px" font-size="13px">Confirm Password: </asp:Label>
                                     </td>
                                     <td style="width: 286px; height:35px">
@@ -179,15 +178,15 @@
                                 </tr>
                                
                                 <tr style="position:relative">
-                                    <td align="center" colspan="2" style="left: 0px; top: 313px; height: 35px"> 
-                                         <asp:Button ID="Button1" runat="server" Height="38px" Width="60%" style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding: 0 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
-                                           text-align: center; font-size: 14px; border-radius: 2px; " Text="As an Author" OnClick="AuthorButton_Click" />
+                                    <td align="center" colspan="2" style="left: 0px; top: 520px; height: 40px"> 
+                                         <asp:Button ID="Button1" runat="server" Height="38px" Width="50%" style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding: 0 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
+                                           text-align: center; font-size: 14px; border-radius: 2px; margin-left: 48px;" Text="As an Author" OnClick="AuthorButton_Click" />
                                     </td>
                                 </tr>
                                  <tr style="position:relative">
-                                   <td align="center" colspan="2" style="left: 0px; top: 313px; height: 35px"> 
-                                         <asp:Button ID="Button3" runat="server" Height="38px" Width="60%" style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding: 0 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
-                                           text-align: center; font-size: 14px; border-radius: 2px; " Text="As a Reviewer" OnClick="ReviewerButton_Click" />
+                                   <td align="center" colspan="2" style="left: 0px; top: 313px; height: 40px"> 
+                                         <asp:Button ID="Button3" runat="server" Height="38px" Width="50%" style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding: 0 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
+                                           text-align: center; font-size: 14px; border-radius: 2px; margin-left: 48px;" Text="As a Reviewer" OnClick="ReviewerButton_Click" />
                                     </td>
                                 </tr>
 
