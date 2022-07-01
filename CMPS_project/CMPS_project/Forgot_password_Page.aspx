@@ -5,12 +5,12 @@
         <h1>Find the password back</h1>
         </div>
     <p>
-        <asp:Label ID="UserNameLabel" runat="server" Text="User Name: "></asp:Label>
-        <asp:TextBox ID="UserNameTextBox" runat="server"></asp:TextBox>
+        <asp:Label ID="Email_Label" runat="server" Text="Email: "></asp:Label>
+        <asp:TextBox ID="Email_TextBox" runat="server"></asp:TextBox>
         </p>
     <p>
-        <asp:Label ID="Email" runat="server" Text="Email: "></asp:Label>
-        <asp:TextBox ID="EmailTextBox" runat="server"></asp:TextBox>
+        <asp:Label ID="Phone_lable" runat="server" Text="Phone Number: "></asp:Label>
+        <asp:TextBox ID="Phone_TextBox" runat="server"></asp:TextBox>
         </p>
 
     <p>
