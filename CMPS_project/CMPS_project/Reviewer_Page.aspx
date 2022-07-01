@@ -5,10 +5,10 @@
     <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #3890f5; overflow: auto;">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" runat="server" style="color: black">CPMS</a>
+                <a class="navbar-brand" runat="server" style="color: white; font-size:20pt">CPMS</a>
             </div>
             <div class="navbar-header">
-                <a class="navbar-brand header_label" runat="server" style="color:; font-weight: bold; font-size: 18pt">-Welcome To The Reviewer Page-</a>
+                <a class="navbar-brand header_label" runat="server" style="color:white; font-weight: bold; font-size: 16pt">-Welcome To The Reviewer Page-</a>
             </div>
 
         </div>

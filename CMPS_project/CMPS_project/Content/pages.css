@@ -23,4 +23,12 @@
 .Admin_Button:hover{
     background-color:aqua;
 }
+.Report_Title {
+    height: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    color: darkblue;
+    text-align:center;
+    width:auto;
+}
 

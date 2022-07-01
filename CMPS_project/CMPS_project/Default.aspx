@@ -12,6 +12,21 @@
     }
 </script>
 
+<asp:Content ID="Author_page" ContentPlaceHolderID="Header" runat="server" >
+    
+       <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#3890f5; overflow:auto;">
+            <div class="container" >
+                <div class="navbar-header">
+                    <a class="navbar-brand" runat="server" style="color:white; font-size:20pt">CPMS</a>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" runat="server" style="color:white; font-size: 16pt">-Welcome To CCSCMW Conference Paper Management System-</a>
+                </div>
+                                    
+            </div>
+        </div>
+</asp:Content>
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <p style="height: 575px"> 

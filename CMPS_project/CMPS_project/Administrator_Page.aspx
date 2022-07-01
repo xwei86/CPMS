@@ -5,10 +5,10 @@
        <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#3890f5; overflow:auto;">
             <div class="container" >
                 <div class="navbar-header">
-                    <a class="navbar-brand" runat="server" style="color:black">CPMS</a>
+                    <a class="navbar-brand" runat="server" style="color:white; font-size:20pt">CPMS</a>
                 </div>
                 <div class="navbar-header">
-                    <a class="navbar-brand" runat="server" style="color:gray; font-weight: bold; font-size: 18pt">-Welcom To The Administration Page-</a>
+                    <a class="navbar-brand" runat="server" style="color:white; font-size: 16pt">-Welcom To The Administration Page-</a>
                 </div>
                                     
             </div>

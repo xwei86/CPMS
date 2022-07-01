@@ -11,16 +11,7 @@ namespace CPMS_project
 {
 
 
-    public partial class _author_report
+    public partial class LogOut
     {
-
-        /// <summary>
-        /// gv_Author_Report control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gv_Author_Report;
     }
 }

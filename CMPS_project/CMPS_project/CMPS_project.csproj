@@ -111,14 +111,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\pages.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Generate_Authors_Report.aspx" />
-    <Content Include="Generate_Reviewers_Comments_Reports.aspx" />
-    <Content Include="Generate_Reviewers_Report.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -128,19 +124,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Match_Papers.aspx" />
-    <Content Include="Sign_up_Page.aspx" />
-    <Content Include="Forgot_password_Page.aspx" />
-    <Content Include="Author_Page.aspx" />
-    <Content Include="Reviewer_Page.aspx" />
-    <Content Include="Administrator_Page.aspx" />
-    <Content Include="Reviewer_area_Page.aspx" />
-    <Content Include="Submission_Permission.aspx" />
-    <Content Include="View_Edit_Profile.aspx" />
-    <Content Include="Paper_Submission.aspx" />
-    <Content Include="Generate_Reviews_Summary_Report.aspx" />
-    <Content Include="LogOut.aspx" />
-    <Content Include="Paper_Review_Page.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -200,36 +183,8 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Generate_Authors_Report.aspx.cs">
-      <DependentUpon>Generate_Authors_Report.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Generate_Authors_Report.aspx.designer.cs">
-      <DependentUpon>Generate_Authors_Report.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Generate_Reviewers_Comments_Reports.aspx.cs">
-      <DependentUpon>Generate_Reviewers_Comments_Reports.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Generate_Reviewers_Comments_Reports.aspx.designer.cs">
-      <DependentUpon>Generate_Reviewers_Comments_Reports.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Generate_Reviewers_Report.aspx.cs">
-      <DependentUpon>Generate_Reviewers_Report.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Generate_Reviewers_Report.aspx.designer.cs">
-      <DependentUpon>Generate_Reviewers_Report.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Match_Papers.aspx.cs">
-      <DependentUpon>Match_Papers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Match_Papers.aspx.designer.cs">
-      <DependentUpon>Match_Papers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -252,90 +207,6 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Sign_up_Page.aspx.cs">
-      <DependentUpon>Sign_up_Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Sign_up_Page.aspx.designer.cs">
-      <DependentUpon>Sign_up_Page.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forgot_password_Page.aspx.cs">
-      <DependentUpon>Forgot_password_Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forgot_password_Page.aspx.designer.cs">
-      <DependentUpon>Forgot_password_Page.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Author_Page.aspx.cs">
-      <DependentUpon>Author_Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Author_Page.aspx.designer.cs">
-      <DependentUpon>Author_Page.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Reviewer_Page.aspx.cs">
-      <DependentUpon>Reviewer_Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Reviewer_Page.aspx.designer.cs">
-      <DependentUpon>Reviewer_Page.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Administrator_Page.aspx.cs">
-      <DependentUpon>Administrator_Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Administrator_Page.aspx.designer.cs">
-      <DependentUpon>Administrator_Page.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Reviewer_area_Page.aspx.cs">
-      <DependentUpon>Reviewer_area_Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Reviewer_area_Page.aspx.designer.cs">
-      <DependentUpon>Reviewer_area_Page.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Submission_Permission.aspx.cs">
-      <DependentUpon>Submission_Permission.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Submission_Permission.aspx.designer.cs">
-      <DependentUpon>Submission_Permission.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="View_Edit_Profile.aspx.cs">
-      <DependentUpon>View_Edit_Profile.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="View_Edit_Profile.aspx.designer.cs">
-      <DependentUpon>View_Edit_Profile.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Paper_Submission.aspx.cs">
-      <DependentUpon>Paper_Submission.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Paper_Submission.aspx.designer.cs">
-      <DependentUpon>Paper_Submission.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Generate_Reviews_Summary_Report.aspx.cs">
-      <DependentUpon>Generate_Reviews_Summary_Report.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Generate_Reviews_Summary_Report.aspx.designer.cs">
-      <DependentUpon>Generate_Reviews_Summary_Report.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LogOut.aspx.cs">
-      <DependentUpon>LogOut.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LogOut.aspx.designer.cs">
-      <DependentUpon>LogOut.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Paper_Review_Page.aspx.cs">
-      <DependentUpon>Paper_Review_Page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Paper_Review_Page.aspx.designer.cs">
-      <DependentUpon>Paper_Review_Page.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
