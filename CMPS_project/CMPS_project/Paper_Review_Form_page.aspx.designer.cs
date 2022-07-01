@@ -33,13 +33,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.Label First_Name_Label;
 
         /// <summary>
-        /// First_Name_TextBox control.
+        /// First_Name_Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox First_Name_TextBox;
+        protected global::System.Web.UI.WebControls.Label First_Name_Label2;
 
         /// <summary>
         /// Middle_Label control.
@@ -51,13 +51,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.Label Middle_Label;
 
         /// <summary>
-        /// Middle_TextBox control.
+        /// Middle_Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Middle_TextBox;
+        protected global::System.Web.UI.WebControls.Label Middle_Label2;
 
         /// <summary>
         /// Last_Name_Label control.
@@ -69,13 +69,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.Label Last_Name_Label;
 
         /// <summary>
-        /// Last_Name_TextBox control.
+        /// Last_Name_Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Last_Name_TextBox;
+        protected global::System.Web.UI.WebControls.Label Last_Name_Label2;
 
         /// <summary>
         /// Paper_title_Label control.
@@ -87,13 +87,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.Label Paper_title_Label;
 
         /// <summary>
-        /// Paper_TextBox control.
+        /// Paper_title_Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Paper_TextBox;
+        protected global::System.Web.UI.WebControls.Label Paper_title_Label2;
 
         /// <summary>
         /// Note_Label control.
@@ -276,13 +276,13 @@ namespace CMPS_project
         protected global::System.Web.UI.WebControls.Label Overall_Rating_head_Label;
 
         /// <summary>
-        /// RadioButtonList1 control.
+        /// O_RadioButtonList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList O_RadioButtonList;
 
         /// <summary>
         /// O_Comment_TextBox control.
@@ -292,5 +292,14 @@ namespace CMPS_project
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox O_Comment_TextBox;
+
+        /// <summary>
+        /// Submit_Button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Submit_Button;
     }
 }

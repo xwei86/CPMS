@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="CMPS_project.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Paper_Review_Form_page.aspx.cs" Inherits="CMPS_project.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Header" runat="server">
     <div class="jumbotron">
@@ -12,20 +12,22 @@
         </p>
     <p>
         <asp:Label ID="First_Name_Label" runat="server" Text="First Name:   "></asp:Label>
-        <asp:TextBox ID="First_Name_TextBox" runat="server"></asp:TextBox>
-
+        <asp:Label ID="First_Name_Label2" runat="server" Font-Underline="True"></asp:Label>
+        </p>
+    <p>
         <asp:Label ID="Middle_Label" runat="server" Text="Middle Initial:   "></asp:Label>
-        <asp:TextBox ID="Middle_TextBox" runat="server"></asp:TextBox>
-
+        <asp:Label ID="Middle_Label2" runat="server" Font-Underline="True"></asp:Label>
+        </p>
+    <p>
         <asp:Label ID="Last_Name_Label" runat="server" Text="Last Name:   "></asp:Label>
-        <asp:TextBox ID="Last_Name_TextBox" runat="server"></asp:TextBox>
+        <asp:Label ID="Last_Name_Label2" runat="server" Font-Underline="True"></asp:Label>
         </p>
     <p>
         &nbsp;</p>
 
     <p>
         <asp:Label ID="Paper_title_Label" runat="server" Text="Paper_Title   "></asp:Label>
-        <asp:TextBox ID="Paper_TextBox" runat="server"></asp:TextBox>
+        <asp:Label ID="Paper_title_Label2" runat="server" Font-Underline="True"></asp:Label>
         </p>
 
     <p>
@@ -185,8 +187,8 @@
         </p>
 
      <p>
-            <asp:Label ID="Overall_Rating_head_Label" runat="server" Text="Overall Rating head Label" Font-Size="Larger"></asp:Label>
-            <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+            <asp:Label ID="Overall_Rating_head_Label" runat="server" Text="Overall Rating" Font-Size="Larger"></asp:Label>
+            <asp:RadioButtonList ID="O_RadioButtonList" runat="server">
                 <asp:ListItem>Definitely Should Not Accept Paper</asp:ListItem>
                 <asp:ListItem>Probably Should Not Accept Paper</asp:ListItem>
                 <asp:ListItem>Uncertain About Acceptance of Paper</asp:ListItem>
@@ -197,5 +199,6 @@
     <p>
         Comments:<asp:TextBox ID="O_Comment_TextBox" runat="server" Width="821px"></asp:TextBox>
         </p>
+    <asp:Button ID="Submit_Button" runat="server" Text="Submit" OnClick="Submit_Button_Click" />
     
     </asp:Content>
