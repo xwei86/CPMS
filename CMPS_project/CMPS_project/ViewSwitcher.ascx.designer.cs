@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CMPS_project {
+namespace CPMS_project {
     
     
     public partial class ViewSwitcher {

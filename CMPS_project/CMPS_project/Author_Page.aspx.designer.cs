@@ -7,21 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CMPS_project
+namespace CPMS_project
 {
 
 
-    public partial class WebForm3
+    public partial class _Author_page
     {
-
-        /// <summary>
-        /// Top control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Top;
 
         /// <summary>
         /// Paper_Submission control.

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CMPS_project
+namespace CPMS_project
 {
     public partial class About : Page
     {

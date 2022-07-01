@@ -111,6 +111,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\pages.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -134,9 +135,10 @@
     <Content Include="Reviewer_Page.aspx" />
     <Content Include="Administrator_Page.aspx" />
     <Content Include="Reviewer_area_Page.aspx" />
-    <Content Include="Submission Permission.aspx" />
-    <Content Include="View Edit Profile.aspx" />
-    <Content Include="Paper Submission.aspx" />
+    <Content Include="Submission_Permission.aspx" />
+    <Content Include="View_Edit_Profile.aspx" />
+    <Content Include="Paper_Submission.aspx" />
+    <Content Include="Generate_Reviews_Summary_Report.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -291,26 +293,33 @@
     <Compile Include="Reviewer_area_Page.aspx.designer.cs">
       <DependentUpon>Reviewer_area_Page.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Submission Permission.aspx.cs">
-      <DependentUpon>Submission Permission.aspx</DependentUpon>
+    <Compile Include="Submission_Permission.aspx.cs">
+      <DependentUpon>Submission_Permission.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Submission Permission.aspx.designer.cs">
-      <DependentUpon>Submission Permission.aspx</DependentUpon>
+    <Compile Include="Submission_Permission.aspx.designer.cs">
+      <DependentUpon>Submission_Permission.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View Edit Profile.aspx.cs">
-      <DependentUpon>View Edit Profile.aspx</DependentUpon>
+    <Compile Include="View_Edit_Profile.aspx.cs">
+      <DependentUpon>View_Edit_Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View Edit Profile.aspx.designer.cs">
-      <DependentUpon>View Edit Profile.aspx</DependentUpon>
+    <Compile Include="View_Edit_Profile.aspx.designer.cs">
+      <DependentUpon>View_Edit_Profile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Paper Submission.aspx.cs">
-      <DependentUpon>Paper Submission.aspx</DependentUpon>
+    <Compile Include="Paper_Submission.aspx.cs">
+      <DependentUpon>Paper_Submission.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Paper Submission.aspx.designer.cs">
-      <DependentUpon>Paper Submission.aspx</DependentUpon>
+    <Compile Include="Paper_Submission.aspx.designer.cs">
+      <DependentUpon>Paper_Submission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Generate_Reviews_Summary_Report.aspx.cs">
+      <DependentUpon>Generate_Reviews_Summary_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generate_Reviews_Summary_Report.aspx.designer.cs">
+      <DependentUpon>Generate_Reviews_Summary_Report.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

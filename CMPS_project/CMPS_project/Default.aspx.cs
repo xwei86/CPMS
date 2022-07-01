@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace CMPS_project
+namespace CPMS_project
 {
     public partial class _Default : Page
     {
@@ -96,6 +96,11 @@ namespace CMPS_project
             {
                 Response.Write("Must select one");
             }          
+        }
+
+        protected void Select_RadioButtonList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

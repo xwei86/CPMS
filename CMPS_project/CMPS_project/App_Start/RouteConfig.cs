@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace CMPS_project
+namespace CPMS_project
 {
     public static class RouteConfig
     {

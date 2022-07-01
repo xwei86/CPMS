@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="CMPS_project.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="CPMS_project.Global" Language="C#" %>

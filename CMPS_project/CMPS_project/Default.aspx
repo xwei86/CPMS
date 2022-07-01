@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CMPS_project._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CPMS_project._Default" %>
 
 <script runat="server">
     protected void Page_Load(object sender, EventArgs e)
@@ -52,17 +52,20 @@
                                 </tr>
                                       
                                 <tr>
-                                    <td align="center" colspan="2" Height="45px">
-                                        <asp:Button ID="LoginButton" runat="server" CommandName="Login" Height="38px" Width="60%" Text="Log In" ValidationGroup="Login1" OnClick="LoginButton_Click" 
-                                            style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding: 0 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
+                                    <td rowspan="2">
+                                        
+                                    
+                                    </td>
+                                    <td align="center" Height="45px">
+                                        <asp:Button ID="LoginButton" runat="server" CommandName="Login" Height="38px" Width="56%" Text="Log In" ValidationGroup="Login1" OnClick="LoginButton_Click" 
+                                            style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding:0px 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
                                             text-align: center; font-size: 14px; border-radius: 2px; cursor: pointer;"/>
                                     </td>
                                 </tr>
                                 <tr style="position:relative">
-                                    <td align="center" colspan="2" style="left: 0px; top: 313px; height: 45px"> 
-                                        <asp:LinkButton ID="LinkButton1" runat="server" Height="38px" Text="Sign up" Width="60%" style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding: 0 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
-                                           text-align: center; font-size: 14px; border-radius: 2px; cursor: pointer;" PostBackUrl="~/Sign_up_Page.aspx"></asp:LinkButton>
-                                        
+                                    <td align="center" style="left: 0px; top: 225px; height: 45px">
+                                        <asp:LinkButton ID="LinkButton1" runat="server" Height="38px" PostBackUrl="~/Sign_up_Page.aspx" style="border-style: groove; border-color: inherit; border-width: medium; display: inline-block; line-height: 38px; padding: 0 18px; background-color: #3890f5; color: #fff; white-space: nowrap; 
+                                           text-align: center; font-size: 14px; border-radius: 2px; cursor: pointer;" Text="Sign up" Width="56%"></asp:LinkButton>
                                     </td>
                                 </tr>
                                 <tr>
@@ -80,12 +83,12 @@
             <TextBoxStyle Font-Size="0.8em" />
             <TitleTextStyle BackColor="#507CD1" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
         </asp:Login>
+     <asp:RadioButtonList ID="Select_RadioButtonList" runat="server" CssClass="affix" style="left: 852px; top: 445px; margin-top: 0px;" Width="92px">
+                                            <asp:ListItem>Admin</asp:ListItem>
+                                            <asp:ListItem>Author</asp:ListItem>
+                                            <asp:ListItem>Reviewer</asp:ListItem>
+                                        </asp:RadioButtonList>
  
-         <asp:RadioButtonList ID="Select_RadioButtonList" runat="server" TextAlign="Left" Width="92px" CssClass="affix" style="left: 1300px; top: 447px" >
-            <asp:ListItem>Admin</asp:ListItem>
-            <asp:ListItem>Author</asp:ListItem>
-            <asp:ListItem>Reviewer</asp:ListItem>
-                  </asp:RadioButtonList>
         </p>
                                  
 </asp:Content>

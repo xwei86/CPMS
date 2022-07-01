@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace CMPS_project
+namespace CPMS_project
 {
     public partial class WebForm1 : System.Web.UI.Page
     {

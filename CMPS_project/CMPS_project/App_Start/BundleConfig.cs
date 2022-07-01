@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace CMPS_project
+namespace CPMS_project
 {
     public class BundleConfig
     {

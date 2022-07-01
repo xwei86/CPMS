@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CMPS_project.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CPMS_project.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -14,7 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="Stylesheet/Site_master.css" rel="stylesheet" />
+    <link href="~/Content/pages.css" rel="stylesheet" type="text/css" media="screen" runat="server" />
 </head>
 <body>
     <form runat="server">
@@ -55,6 +55,14 @@
             </div>
         </div>
         --%>
+
+       <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#3890f5; overflow:auto;">
+            <div class="container" >
+                <div class="navbar-header">
+                    <a class="navbar-brand" runat="server" style="color:black">CPMS</a>
+                </div>
+            </div>
+        </div>
 
         <div class="container body-content" style="padding-bottom:60px" >
             <asp:ContentPlaceHolder ID="Header" runat="server" >

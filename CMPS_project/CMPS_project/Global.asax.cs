@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace CMPS_project
+namespace CPMS_project
 {
     public class Global : HttpApplication
     {

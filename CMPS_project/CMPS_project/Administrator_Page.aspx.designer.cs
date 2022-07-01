@@ -11,70 +11,61 @@ namespace CPMS_project
 {
 
 
-    public partial class WebForm2
+    public partial class _Admin_page
     {
 
         /// <summary>
-        /// UserNameLabel control.
+        /// Match_paper control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserNameLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Match_paper;
 
         /// <summary>
-        /// UserNameTextBox control.
+        /// Generate_reviews_summary_report control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
+        protected global::System.Web.UI.WebControls.LinkButton Generate_reviews_summary_report;
 
         /// <summary>
-        /// Email control.
+        /// Generate_Authors_Report control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Email;
+        protected global::System.Web.UI.WebControls.LinkButton Generate_Authors_Report;
 
         /// <summary>
-        /// EmailTextBox control.
+        /// Generate_Reviewers_Report control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
+        protected global::System.Web.UI.WebControls.LinkButton Generate_Reviewers_Report;
 
         /// <summary>
-        /// NewPasswordLabel control.
+        /// Generate_Reviewers_Comments_Reports control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label NewPasswordLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Generate_Reviewers_Comments_Reports;
 
         /// <summary>
-        /// NewPasswordTextBox control.
+        /// Permisiion_Control control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NewPasswordTextBox;
-
-        /// <summary>
-        /// ConfirmButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ConfirmButton;
+        protected global::System.Web.UI.WebControls.LinkButton Permisiion_Control;
     }
 }

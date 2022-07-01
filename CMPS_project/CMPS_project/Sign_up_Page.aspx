@@ -1,17 +1,20 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Sign_up_Page.aspx.cs" Inherits="CMPS_project.WebForm1" %>
-<script runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Sign_up_Page.aspx.cs" Inherits="CPMS_project.WebForm1" %>
 
-    protected void Page_Load(object sender, EventArgs e)
-    {
+<asp:Content ID="Sign_Up" ContentPlaceHolderID="Header" runat="server" >
+    
+       <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#3890f5; overflow:auto;">
+            <div class="container" >
+                <div class="navbar-header">
+                    <a class="navbar-brand" runat="server" style="color:black">CPMS</a>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" runat="server" style="color:gray; font-weight: bold; font-size: 18pt">-Sign Up Page-</a>
+                </div>
+                                    
+            </div>
+        </div>
+</asp:Content>
 
-    }
-
-    protected void SighUp_Authenticate(object sender, AuthenticateEventArgs e)
-    {
-
-    }
-
-</script>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div style=overflow-y:auto>
      
