@@ -144,9 +144,14 @@ namespace CPMS_project
 
                 conn2.Close();
 
+                Session["username"] = UserNameTextBox.Text;
+                Session["password"] = PasswordTextBox.Text;
 
                 //go to login page
+                // Server.Transfer("Author_Page.aspx");
                 Response.Redirect("Author_Page.aspx");
+
+                
             }
         }
 

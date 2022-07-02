@@ -22,12 +22,14 @@
                   
                 <tr>
                     <td>
-                        <asp:LinkButton ID="Paper_Submission" runat="server" class="Admin_Button" Font-Bold="True"  PostBackUrl="~/Paper_Submission.aspx" Width="420px">Paper Submission</asp:LinkButton>
-                    </td>
+                        <asp:Button ID="Paper_Submission" runat="server" class="Admin_Button" Font-Bold="True" CommandName="Paper Submission" Text="Paper Submission"  OnClick="Paper_SubmissionButton_Click" Width="420px" style="left: 0px; top: 0px; " />
+                      
+                       </td>
                 </tr>   
                 <tr>
                     <td>
-                        <asp:LinkButton ID="View_Edit_Profile" runat="server" class="Admin_Button" Font-Bold="True"  PostBackUrl="~/View_Edit_Profile.aspx" Width="420px">View/Edit Profile</asp:LinkButton>
+                        <asp:Button ID="View_Edit_ProfileButton" runat="server" class="Admin_Button" Font-Bold="True" CommandName="View/Edit Profile" Text="View/Edit Profile"  OnClick="View_Edit_ProfileButton_Click" Width="420px" style="left: 0px; top: 0px; " />
+                      
                     </td>
                 </tr>
             

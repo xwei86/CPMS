@@ -16,7 +16,8 @@ namespace CPMS_project
 
         protected void ConfirmButton_Click(object sender, EventArgs e)
         {
-            
+
+            string email = EmailTextBox.Text;
 
 
         }

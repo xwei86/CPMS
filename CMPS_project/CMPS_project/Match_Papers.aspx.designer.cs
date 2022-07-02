@@ -15,12 +15,21 @@ namespace CPMS_project
     {
 
         /// <summary>
-        /// Match_Paper_With_Reviewer control.
+        /// gv_PaperTopics control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView Match_Paper_With_Reviewer;
+        protected global::System.Web.UI.WebControls.GridView gv_PaperTopics;
+
+        /// <summary>
+        /// gv_Reviewer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gv_Reviewer;
     }
 }

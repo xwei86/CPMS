@@ -15,40 +15,76 @@ namespace CPMS_project
     {
 
         /// <summary>
-        /// Email_Label control.
+        /// FirstNameLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Email_Label;
+        protected global::System.Web.UI.WebControls.Label FirstNameLabel;
 
         /// <summary>
-        /// Email_TextBox control.
+        /// FirstNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Email_TextBox;
+        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
 
         /// <summary>
-        /// Phone_lable control.
+        /// LastNameLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Phone_lable;
+        protected global::System.Web.UI.WebControls.Label LastNameLabel;
 
         /// <summary>
-        /// Phone_TextBox control.
+        /// LastNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Phone_TextBox;
+        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
+
+        /// <summary>
+        /// PhoneLabel1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label PhoneLabel1;
+
+        /// <summary>
+        /// PhoneTextBox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox PhoneTextBox1;
+
+        /// <summary>
+        /// EmailAddress control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EmailAddress;
+
+        /// <summary>
+        /// EmailTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
 
         /// <summary>
         /// NewPasswordLabel control.

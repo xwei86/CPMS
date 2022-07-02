@@ -21,15 +21,15 @@ namespace CPMS_project
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton Paper_Submission;
+        protected global::System.Web.UI.WebControls.Button Paper_Submission;
 
         /// <summary>
-        /// View_Edit_Profile control.
+        /// View_Edit_ProfileButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton View_Edit_Profile;
+        protected global::System.Web.UI.WebControls.Button View_Edit_ProfileButton;
     }
 }
