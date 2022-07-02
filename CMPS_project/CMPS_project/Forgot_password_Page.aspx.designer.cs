@@ -15,40 +15,40 @@ namespace CPMS_project
     {
 
         /// <summary>
-        /// UserNameLabel control.
+        /// Email_Label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserNameLabel;
+        protected global::System.Web.UI.WebControls.Label Email_Label;
 
         /// <summary>
-        /// UserNameTextBox control.
+        /// Email_TextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Email_TextBox;
 
         /// <summary>
-        /// Email control.
+        /// Phone_lable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Email;
+        protected global::System.Web.UI.WebControls.Label Phone_lable;
 
         /// <summary>
-        /// EmailTextBox control.
+        /// Phone_TextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Phone_TextBox;
 
         /// <summary>
         /// NewPasswordLabel control.
