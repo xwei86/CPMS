@@ -15,14 +15,17 @@ namespace CPMS_project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            GVbind();
+            if (!IsPostBack)
+            {
+                GVbind();
+            }
         }
 
         protected void GVbind()
         {
             string username = HttpContext.Current.Session["username"].ToString();
             string password = HttpContext.Current.Session["password"].ToString();
-           
+
             string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
             using (SqlConnection con = new SqlConnection(cs))
             {
@@ -58,7 +61,7 @@ namespace CPMS_project
         {
             string username = HttpContext.Current.Session["username"].ToString();
             string password = HttpContext.Current.Session["password"].ToString();
-           
+
             //Getting the new user's input on textbox
             string firstname = FirstNameTextBox.Text;
             string lastname = LastNameTextBox.Text;
@@ -166,7 +169,7 @@ namespace CPMS_project
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = conn2;
                 cmd.CommandText = "UPDATE Author SET FirstName=@param1, MiddleInitial=@param2,LastName=@param3,Affiliation=@param4,Department=@param5,Address=@param6,City=@param7,State=@param8,ZipCode=@param9,PhoneNumber=@param10,EmailAddress=@param11,Password=@param12 WHERE EmailAddress = @username and Password = @password";
-              
+
                 cmd.Parameters.AddWithValue("@param1", firstname);
                 cmd.Parameters.AddWithValue("@param2", middleinitial);
                 cmd.Parameters.AddWithValue("@param3", lastname);
@@ -179,29 +182,22 @@ namespace CPMS_project
                 cmd.Parameters.AddWithValue("@param10", phonenumber);
                 cmd.Parameters.AddWithValue("@param11", newUsername);
                 cmd.Parameters.AddWithValue("@param12", newPassword);
-              
-               cmd.Parameters.AddWithValue("@username", username);
-               cmd.Parameters.AddWithValue("@password", password);
+
+                cmd.Parameters.AddWithValue("@username", username);
+                cmd.Parameters.AddWithValue("@password", password);
 
                 cmd.ExecuteNonQuery();
                 //MessageBox.Show("Updated!");
                 conn2.Close();
-                
+
                 Session["username"] = newUsername;
                 Session["password"] = newPassword;
 
                 //go to login page
 
-                if (middleinitial == "T")
-                {
                     Response.Redirect("Author_Page.aspx");
-                }
-                else
-                {
-                    Response.Write("Not updated,please try again.");
-                }
+              
 
-                
             }
         }
 
